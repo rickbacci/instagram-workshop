@@ -1,0 +1,6 @@
+%h1 Welcome!
+-if current_user
+  %h1= "Hello, #{current_user.name.capitalize}!"
+  =link_to 'logout', logout_path, method: :delete
+-else
+  =link_to 'login', login_path

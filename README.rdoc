@@ -1,0 +1,64 @@
+== README
+
+
+### Instagram User Stories
+
+High Level wishlist:
+
+* Authenticate with my instagram account
+* See my basic profile information (username, profile pic)
+* View a list of recent posts from my feed
+* View photos for each post
+* View comments for each post
+* View like count for each post
+
+Additional interactions might include:
+
+* Infinite Scroll to view more photos
+* Post a comment on a post
+
+User stories:
+
+__Iteration 1 - Wednesday afternoon__
+
+1. As a new user, when I visit the ThenStagram home page, there should be a button
+prompting me to log in. When I click the button, I should be taken through Instagram's
+OAuth authentication flow. Assuming I authenticate successfully with my instagram account,
+I should be returned to the home page. And I should see my instagram user name.
+
+2. Viewing Profile Information -- As an authenticated user when I visit the home page, __either__: I should have a link to view my profile, and when I click that link I should be taken to a separate page
+which displays my Profile Photo, my number of posts, my number of followers, and the number
+of people I am following. __OR__ When I view the homepage I should see this profile information
+displayed in a separate panel.
+
+3. Viewing photo feed data -- As an authententicated user, when I visit the homepage,
+I should see a textual list of posts from users that I am following (this can be
+a simple `ul` or similar). Each post should include: the user name of the poster,
+the link to the post's image url, the list of comments on the post, and the time
+when the post was posted.
+
+4. Viewing photo feed UI -- As an authententicated user, when I visit the homepage,
+I should see a rendered of posts from my feed. Here we should model the instagram UI
+as closely as possible -- nicely rendered photo, things that are links on instagram
+should be links if possible.
+
+__Iteration 2 -- TBD__
+
+* Like a photo
+* Comment on a photo
+
+https://gist.github.com/worace/9fe6f9336435001f97cd
+
+
+
+Things you may want to cover:
+
+* Ruby version - 2.2.2
+* System dependencies
+* Configuration
+* Database creation
+* Database initialization
+* How to run the test suite
+* Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions
+
