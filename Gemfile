@@ -36,7 +36,7 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'web-console', '~> 2.0'
-
+  gem 'launchy'
   gem 'spring'
 end
 
